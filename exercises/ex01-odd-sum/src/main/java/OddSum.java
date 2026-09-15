@@ -32,8 +32,8 @@ public class OddSum {
         //       You can index into arrays as we do in Python
         //       (e.g. arr[i] gives you the item at index i).
         int odd_sum = 0;
-        if (arr.lenth < 2){
-            return odd_sum
+        if (arr.length < 2){
+            return odd_sum;
         }
         for (int i = 1;i < arr.length;i += 2){
             odd_sum += arr[i];
