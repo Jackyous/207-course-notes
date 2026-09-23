@@ -62,7 +62,7 @@ optimizes this bytecode at runtime.
 
 To run a Java program, you must first **compile** it and then **execute** it.
 
-If you had a simple program in a file called `HelloWorld.java`,
+If you had a simple program in a file called `Comparer.java`,
 you could compile it by running `javac HelloWorld.java` in the terminal. This produces a file called
 `HelloWorld.class`, which contains the bytecode. To then run the program,
 you could run `java HelloWorld` in the terminal.

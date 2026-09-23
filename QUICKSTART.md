@@ -210,7 +210,7 @@ Before using a build tool it helps to understand what's happening under the hood
 
 ### Writing a Hello World
 
-Suppose we created a file called `HelloWorld.java` which contained:
+Suppose we created a file called `Comparer.java` which contained:
 
 ```java
 public class HelloWorld {
@@ -224,10 +224,10 @@ public class HelloWorld {
 
 `javac` is the Java compiler. It reads `.java` source files and produces `.class` bytecode files that the JVM can execute.
 
-For the above `HelloWorld.java`, we could compile it as:
+For the above `Comparer.java`, we could compile it as:
 
 ```bash
-javac HelloWorld.java     # produces HelloWorld.class
+javac Comparer.java     # produces HelloWorld.class
 ```
 
 ### Running with `java`
@@ -245,11 +245,11 @@ java HelloWorld           # prints: Hello, World!
 In a real project, classes live in **packages**. Java requires that the source file's location matches the package name,
 and that you compile and run from the **root of the source tree**, not from inside the package folder.
 
-For example, `HelloWorld.java` in this repo declares `package cs.toronto.edu.csc207.hello;`. To compile and run it by hand:
+For example, `Comparer.java` in this repo declares `package cs.toronto.edu.csc207.hello;`. To compile and run it by hand:
 
 ```bash
 # Run these from code/src/main/java/
-javac cs/toronto/edu/csc207/hello/HelloWorld.java
+javac cs/toronto/edu/csc207/hello/Comparer.java
 java cs.toronto.edu.csc207.hello.HelloWorld
 ```
 
