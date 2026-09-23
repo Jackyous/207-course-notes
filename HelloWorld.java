@@ -5,7 +5,7 @@ import java.util.Map;
 
 class HelloWorld{
     public static void main(String[] args) {
-        int num = 1012399232;
-        System.out.println(Integer.BYTES);
+        Integer x = new Integer(2);
+        System.out.println(x);
     }
 }
