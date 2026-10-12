@@ -45,8 +45,10 @@ class User{
     + LogIn(): void
 }
 class Member{
-    # borrowList : Item[]
+    - borrowList : Item[]
+    - holdOnList : Item[]
     + BorrowItem(): void
+    + HoldOn(): void
 }
 class Librarian{
     +AddItem() : void
